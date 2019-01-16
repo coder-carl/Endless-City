@@ -1,0 +1,90 @@
+﻿/*FONTS.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2013 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* CUSTOM FONTS ARE DEFINED HERE VIA CSS3 FONT-FACE TECHNOLOGY*/
+/* More info : http://www.littleboxofideas.com/blog/tutorials/how-do-i-implement-font-face */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* Font: Open Sans Family */
+/* Source: Google Web Fonts Library */
+/* License Type: GPL */
+/*--------------------------------------------------------*/
+@font-face{ 
+font-family:"OpenSansRegular";
+src: url('../fonts/opensans-regular-webfont.eot'); 
+src: 
+url('../fonts/opensans-regular-webfont.woff') format('woff'), 
+url('../fonts/opensans-regular-webfont.eot') format('embedded-opentype'), 
+url('../fonts/opensans-regular-webfont.ttf') format('truetype'), 
+url('../fonts/opensans-regular-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"OpenSansItalic";
+src: url('../fonts/opensans-italic-webfont.eot'); 
+src: 
+url('../fonts/opensans-italic-webfont.eot') format('embedded-opentype'), 
+url('../fonts/opensans-italic-webfont.woff') format('woff'), 
+url('../fonts/opensans-italic-webfont.ttf') format('truetype'), 
+url('../fonts/opensans-italic-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"OpenSansBold";
+src: url('../fonts/opensans-bold-webfont.eot'); 
+src: 
+url('../fonts/opensans-bold-webfont.eot') format('embedded-opentype'), 
+url('../fonts/opensans-bold-webfont.woff') format('woff'), 
+url('../fonts/opensans-bold-webfont.ttf') format('truetype'), 
+url('../fonts/opensans-bold-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"OpenSansLight";
+src: url('../fonts/opensans-light-webfont.eot'); 
+src: 
+url('../fonts/opensans-light-webfont.eot') format('embedded-opentype'), 
+url('../fonts/opensans-light-webfont.woff') format('woff'), 
+url('../fonts/opensans-light-webfont.ttf') format('truetype'), 
+url('../fonts/opensans-light-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"OpenSansLightItalic";
+src: url('../fonts/opensans-lightitalic-webfont.eot'); 
+src: 
+url('../fonts/opensans-lightitalic-webfont.eot') format('embedded-opentype'), 
+url('../fonts/opensans-lightitalic-webfont.woff') format('woff'), 
+url('../fonts/opensans-lightitalic-webfont.ttf') format('truetype'), 
+url('../fonts/opensans-lightitalic-webfont.svg#webfont') format('svg'); 
+}
+
+/*--------------------------------------------------------*/
+/* Font: Nexa Free Family */
+/* Source: Fontfabric */
+/* License Type: GPL */
+/*--------------------------------------------------------*/
+@font-face{ 
+font-family:"NexaBold";
+src: url('../fonts/nexa_bold-webfont.eot'); 
+src: 
+url('../fonts/nexa_bold-webfont.woff') format('woff'), 
+url('../fonts/nexa_bold-webfont.eot') format('embedded-opentype'), 
+url('../fonts/nexa_bold-webfont.ttf') format('truetype'), 
+url('../fonts/nexa_bold-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"NexaLight";
+src: url('../fonts/nexa_light-webfont.eot'); 
+src: 
+url('../fonts/nexa_light-webfont.woff') format('woff'), 
+url('../fonts/nexa_light-webfont.eot') format('embedded-opentype'), 
+url('../fonts/nexa_light-webfont.ttf') format('truetype'), 
+url('../fonts/nexa_light-webfont.svg#webfont') format('svg'); 
+}
+

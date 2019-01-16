@@ -1,0 +1,349 @@
+<<<<<<< HEAD
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>MineCarl - 矿车 2019年-感谢有你！</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<link rel="shortcut icon" href="favicon.ico" >
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Google Fonts --->
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<!-- Google Fonts --->
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			
+			},
+			
+			hoverEffect: function () {
+			
+				// Simple parallax effect
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);				
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+	});	
+	</script>
+	<script type="text/javascript" src="js/easing.js"></script>
+					<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+</script>
+</head>
+<body>
+	<!--- Header Starts Here ---->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="logos">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<!--- banner Slider starts Here --->
+	  			<script src="js/responsiveslides.min.js"></script>
+					 <script>
+					    // You can also use "$(window).load(function() {"
+					    $(function () {
+					      // Slideshow 4
+					      $("#slider4").responsiveSlides({
+					        auto: true,
+					        pager: true,
+					        nav: true,
+					        speed: 500,
+					        namespace: "callbacks",
+					        before: function () {
+					          $('.events').append("<li>before event fired.</li>");
+					        },
+					        after: function () {
+					          $('.events').append("<li>after event fired.</li>");
+					        }
+					      });
+					
+					    });
+					  </script>
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			        	<div class="slide-content">
+							<h2>欢迎加入MineCarl世界！</h2>
+							<p>你会在这里结实很多新朋友，遇到很多开心事<br> 让我们一起来这个美好的世界一起玩耍吧!</p>
+							<a href="https://jq.qq.com/?_wv=1027&k=5oaJk3g">加入MineCarl</a>
+						</div>
+				    </li>
+			      </ul>
+			    </div>
+		</div>
+	</div>
+	<!--- Header Ends Here ---->
+	<!-- Navigation Starts Here ---->
+	<!-- top-nav -->
+		
+		<div class="top-nav">
+			<nav>
+				<span class="menu"></span>			</nav>
+		</div>
+		<script>
+					$( "span.menu" ).click(function() {
+					  $( ".top-nav ul" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+
+		<script src="js/myscript.js"> </script>
+		<!-- top-nav -->
+	<!--- About Us Starts Here ---->	<!--- About Us Ends Here ---->
+	<!--- Featured Work Starts Here ---->
+	
+	<!--- Featured Work Ends Here ---->	
+	<!--- Contact-starts Here --->
+<div class="contact" id="contact"> </div>
+	<!--- Contact-Ends Here --->
+	<!--- Footer Starts here -->
+	<div class="footer">
+		<ul class="footer-icons">
+			<li><a href='https://www.baidu.com' target="_blank"><i class="fb"></i></a></li>
+			<li><a href='https://www.qq.com' target="_blank"><i class="cm"></i></a></li>
+		</ul>
+		<p class="copyright"> 抵制不良游戏-----拒绝盗版游戏-----注意自我保护-----谨防受骗上当-----适度游戏益脑-----沉迷游戏伤身-----合理安排时间-----享受健康生活</a></p>
+				<a href="www.baidu.com" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</div>
+	<!--- Footer Ends here --->
+</body>
+</html>
+
+	<div class="services" id="service">
+	  <h3 class="top-title">MineCarl介绍</h3>
+	  <div class="row services-row">
+	    <div class="col-md-4 services-column">
+	      <h4>科 技</h4>
+	      <i class="icon1"></i>
+	      <p>各种高科技产品，需要你拥有非常好的耐心和大佬逻辑思维，如果你觉得你够强可以来试试哦.</p>
+        </div>
+	    <div class="col-md-4 services-column">
+	      <h4>魔 法</h4>
+	      <i class="icon2"></i>
+	      <p>这是一个施展法术的平台，你可以拥有各种炫彩特效，快来给萌新装逼吧.</p>
+        </div>
+	    <div class="col-md-4 services-column">
+	      <h4>养 老</h4>
+	      <i class="icon3"></i>
+	      <p>如果你是一个农村大户，那你可以通过种植来发家致富，建造一个属于你自己的农场.</p>
+        </div>
+	    <div class="clearfix"></div>
+      </div>
+</div>
+=======
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>MineCarl - 矿车 2019年-感谢有你！</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<link rel="shortcut icon" href="favicon.ico" >
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Google Fonts --->
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<!-- Google Fonts --->
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			
+			},
+			
+			hoverEffect: function () {
+			
+				// Simple parallax effect
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);				
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+	});	
+	</script>
+	<script type="text/javascript" src="js/easing.js"></script>
+					<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+</script>
+</head>
+<body>
+	<!--- Header Starts Here ---->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="logos">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<!--- banner Slider starts Here --->
+	  			<script src="js/responsiveslides.min.js"></script>
+					 <script>
+					    // You can also use "$(window).load(function() {"
+					    $(function () {
+					      // Slideshow 4
+					      $("#slider4").responsiveSlides({
+					        auto: true,
+					        pager: true,
+					        nav: true,
+					        speed: 500,
+					        namespace: "callbacks",
+					        before: function () {
+					          $('.events').append("<li>before event fired.</li>");
+					        },
+					        after: function () {
+					          $('.events').append("<li>after event fired.</li>");
+					        }
+					      });
+					
+					    });
+					  </script>
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			        	<div class="slide-content">
+							<h2>欢迎加入MineCarl世界！</h2>
+							<p>你会在这里结实很多新朋友，遇到很多开心事<br> 让我们一起来这个美好的世界一起玩耍吧!</p>
+							<a href="https://jq.qq.com/?_wv=1027&k=5oaJk3g">加入MineCarl</a>
+						</div>
+				    </li>
+			      </ul>
+			    </div>
+		</div>
+	</div>
+	<!--- Header Ends Here ---->
+	<!-- Navigation Starts Here ---->
+	<!-- top-nav -->
+		
+		<div class="top-nav">
+			<nav>
+				<span class="menu"></span>			</nav>
+		</div>
+		<script>
+					$( "span.menu" ).click(function() {
+					  $( ".top-nav ul" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+
+		<script src="js/myscript.js"> </script>
+		<!-- top-nav -->
+	<!--- About Us Starts Here ---->	<!--- About Us Ends Here ---->
+	<!--- Featured Work Starts Here ---->
+	
+	<!--- Featured Work Ends Here ---->	
+	<!--- Contact-starts Here --->
+<div class="contact" id="contact"> </div>
+	<!--- Contact-Ends Here --->
+	<!--- Footer Starts here -->
+	<div class="footer">
+		<ul class="footer-icons">
+			<li><a href='https://www.baidu.com' target="_blank"><i class="fb"></i></a></li>
+			<li><a href='https://www.qq.com' target="_blank"><i class="cm"></i></a></li>
+		</ul>
+		<p class="copyright"> 抵制不良游戏-----拒绝盗版游戏-----注意自我保护-----谨防受骗上当-----适度游戏益脑-----沉迷游戏伤身-----合理安排时间-----享受健康生活</a></p>
+				<a href="www.baidu.com" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</div>
+	<!--- Footer Ends here --->
+</body>
+</html>
+
+	<div class="services" id="service">
+	  <h3 class="top-title">MineCarl介绍</h3>
+	  <div class="row services-row">
+	    <div class="col-md-4 services-column">
+	      <h4>科 技</h4>
+	      <i class="icon1"></i>
+	      <p>各种高科技产品，需要你拥有非常好的耐心和大佬逻辑思维，如果你觉得你够强可以来试试哦.</p>
+        </div>
+	    <div class="col-md-4 services-column">
+	      <h4>魔 法</h4>
+	      <i class="icon2"></i>
+	      <p>这是一个施展法术的平台，你可以拥有各种炫彩特效，快来给萌新装逼吧.</p>
+        </div>
+	    <div class="col-md-4 services-column">
+	      <h4>养 老</h4>
+	      <i class="icon3"></i>
+	      <p>如果你是一个农村大户，那你可以通过种植来发家致富，建造一个属于你自己的农场.</p>
+        </div>
+	    <div class="clearfix"></div>
+      </div>
+</div>
+>>>>>>> 6dafc34675bddbd84e6023822e0ded17ef6fb881
